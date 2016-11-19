@@ -1,0 +1,107 @@
+/*base css*/
+body {
+	background-color: #1081DE;
+	color: white;
+}
+
+h1 {
+	font-size: 400%;	
+}
+
+h2 {
+  text-align: center;
+  font-size: 230%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+h1, h2, h6 {
+	font-family: 'Caveat Brush', cursive;
+  color: #1081DE;
+}
+
+h6 {
+  font-size: 125%;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+p,
+a {
+	color: #222;
+  font-family: 'Architects Daughter', cursive;
+	font-size: 120%;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #BDDBF4;
+}
+
+#my-nav {
+	margin: auto;
+	padding-top: 40px;
+	width: 80%;
+	max-width: 500px;
+}
+
+#my-nav > a {
+	font-size: 135%;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+#home {
+	float: left;
+}
+
+#contact-me {
+	float: right;
+}
+
+/*#my-wrapper {
+	margin: 55px auto 0px auto;
+	width: 75%;
+	max-width: 500px;
+}*/
+
+/*dad joke generator css*/
+
+/*body {
+  background: #B8ACA5;
+}*/
+
+#mainDiv {
+  height: 500px;
+  width: 90%;
+  position: relative;
+  overflow: auto;
+  margin: auto;
+}
+
+#jokebox {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  color: #222;
+  padding: 20px;
+  resize: vertical;
+  transform: translateY(-50%);
+  margin: auto;
+}
+
+.img-round {
+  border-radius: 15%;
+}
+
+#getjoke, button, button:hover, button:focus {
+    background-color: #1081de;
+    color: white !important;
+}
+
